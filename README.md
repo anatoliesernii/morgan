@@ -292,7 +292,7 @@ http.createServer(function (req, res) {
 
     // respond to request
     res.setHeader('content-type', 'text/plain')
-    res.end('hello, world!')
+    res.send('hello, world!')
   })
 })
 ```
